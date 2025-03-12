@@ -1,0 +1,66 @@
+.header__top {
+    background-color: #106EEA;
+    font-size: 14px;
+}
+
+.header__top-bar,
+.header__nav-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header__top-left,
+.header__top-right,
+.header__nav-list {
+    display: flex;
+    padding: 12px 0;
+}
+
+.header__top-left,
+.header__ {
+    gap: 24px;
+}
+
+.header__top-left .header__contact {
+    display: flex;
+    align-items: center;
+}
+
+.header__top-left .header__contact>*,
+.header__phone>* {
+    color: #fff;
+    padding: 0 2px;
+}
+
+.header__top-left .header__contact .header__contact-email:hover {
+    text-decoration: underline;
+}
+
+.header__social {
+
+    display: flex;
+    gap: 20px;
+}
+
+.header__social .header__social-icon {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+}
+
+.header__social .header__social-icon:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.header__social .facebook {
+    font-size: 16px;
+}
+
+.header__nav-brand-name {
+    font-size: 30px;
+    font-weight: 700;
+}
