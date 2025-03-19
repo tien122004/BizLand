@@ -1,0 +1,86 @@
+.top-bar {
+    background-color: var(--primary-color);
+    height: 40px;
+}
+
+.top-bar__container,
+.branding__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar__container {
+    padding: 0 12px;
+    line-height: 40px;
+    font-size: 14px;
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+}
+
+.top-bar__info,
+.top-bar__social {
+    transition: all 0.5s;
+    display: flex;
+    gap: 20px;
+}
+
+.top-bar__contact-email {
+    color: var(--heading-color);
+}
+
+.top-bar__contact-email:hover {
+    text-decoration: underline;
+}
+
+.top-bar__phone-number {
+    padding-left: 5px;
+}
+
+.top-bar__phone,
+.branding__nav-list,
+.branding__nav-dropping {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar__social-icon {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.top-bar__social-icon:hover {
+    color: var(--heading-color);
+    cursor: pointer;
+}
+
+.top-bar__social-icon:nth-child(3),
+.top-bar__social-icon:nth-child(4) {
+    font-size: 16px;
+}
+
+.branding__container {
+    padding: 12px 10px;
+    font-family: var(--nav-font);
+}
+
+.branding__logo-name {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--nav-color);
+    font-family: var(--heading-font);
+}
+
+.branding__nav-link {
+    color: var(--nav-color);
+    text-transform: capitalize;
+    padding: 18px 15px;
+}
+
+.branding__nav-item:last-child .branding__nav-link {
+    padding-right: 0;
+}
+
+.branding__nav-link:hover {
+    color: var(--nav-hover-color);
+    cursor: pointer;
+}
